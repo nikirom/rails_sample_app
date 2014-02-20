@@ -8,6 +8,9 @@ gem 'rails', '3.2.16'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 
@@ -27,6 +30,9 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara','1.1.2'
+  gem 'rb-inotify'
+  gem 'libnotify'
+  gem 'spork'
 end
 
 group :production do
